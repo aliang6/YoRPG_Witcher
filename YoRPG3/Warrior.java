@@ -30,4 +30,12 @@ public class Warrior extends Character{
  strength *= .5;
     }
     
+    public static String about(){
+ System.out.println("Name: " + name);
+ System.out.println("Class: " + Warrior);
+ System.out.println("Heath: " + health);
+ System.out.println("Strength: " + strength);
+ System.out.println("Defense: " + defense);
+
+    }
 }

@@ -3,7 +3,7 @@
  HW29 -- Ye Olde Role Playing Game, Improved
  2015-11-12 */
 
-public class Character{
+public abstract class Character{
   protected int health, strength, defense;
   protected double attack_rating;
   protected String name;
@@ -31,20 +31,16 @@ public class Character{
     return damage;
   }
   
-  public void normalize(){
+  public abstract void normalize(){
     
   }
   
-  public void specialize(){
+  public abstract void specialize(){
     
   }
   
-  public static void about(Character character){
-    System.out.println("Name: " + character.name);
-    System.out.println("Class: " + character);
-    System.out.println("Heath: " + character.health);
-    System.out.println("Strength: " + character.strength);
-    System.out.println("Defense: " + character.defense);
+  public abstract static void about(Character character){
+    
   }
   
 }

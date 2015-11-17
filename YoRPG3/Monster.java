@@ -17,7 +17,14 @@ public class Monster extends Character{ //The attributes
   
 
 
-  
+  public static String about(){
+ System.out.println("Name: " + name);
+ System.out.println("Class: " + Monster);
+ System.out.println("Heath: " + health);
+ System.out.println("Strength: " + strength);
+ System.out.println("Defense: " + defense);
+
+    }
   
   
   

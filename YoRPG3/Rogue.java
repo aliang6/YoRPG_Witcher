@@ -29,5 +29,14 @@ public class Rogue extends Character{
  defense *= 10;
  strength *= .1;
     }
+
+    public static String about(){
+ System.out.println("Name: " + name);
+ System.out.println("Class: " + Rogue);
+ System.out.println("Heath: " + health);
+ System.out.println("Strength: " + strength);
+ System.out.println("Defense: " + defense);
+
+    }
     
 }

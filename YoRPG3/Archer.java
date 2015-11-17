@@ -34,4 +34,13 @@ public class Archer extends Character{
  strength *= (1/1.7);
 
     }
+
+    public static String about(){
+ System.out.println("Name: " + name);
+ System.out.println("Class: " + Archer);
+ System.out.println("Heath: " + health);
+ System.out.println("Strength: " + strength);
+ System.out.println("Defense: " + defense);
+
+    }
 }

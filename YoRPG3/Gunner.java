@@ -30,4 +30,12 @@ public class Gunner extends Character{
  strength *= .33;
     }
     
+    public static String about(){
+ System.out.println("Name: " + name);
+ System.out.println("Class: " + Gunner);
+ System.out.println("Heath: " + health);
+ System.out.println("Strength: " + strength);
+ System.out.println("Defense: " + defense);
+
+    }
 }
